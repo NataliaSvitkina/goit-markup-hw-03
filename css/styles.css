@@ -24,10 +24,8 @@ img {
 
 .container {
     max-width: 1158px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 a {
@@ -142,8 +140,17 @@ a {
     padding: 120px 0;
 }
 
-.avantage-main .name-section {
-    visibility: hidden;
+.visually-hidden {
+    position: absolute;
+    width: 1;
+    height: 1;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .avantage-list {
